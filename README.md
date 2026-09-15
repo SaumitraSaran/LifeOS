@@ -1,4 +1,4 @@
-<img src="logo.png" alt="LifeOS logo">
+<img src="logo.png" alt="LifeOS logo" width="50">
 
 # LifeOS — frontend demo
 
