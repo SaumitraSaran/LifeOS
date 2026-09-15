@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en" data-theme="system">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#f4f0e8">
+    <meta name="description" content="LifeOS frontend demo with fictional sample data">
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="static/main.css">
+    <title>LifeOS — Frontend Demo</title>
+</head>
+
+<body>
+    <div class="app-shell">
+        <aside class="sidebar">
+            <div class="brand"><img class="brand-logo" src="logo.png" alt="LifeOS logo"><span>LifeOS</span></div>
+            <nav id="nav" aria-label="Primary navigation"></nav>
+            <button class="nav-item settings-link" data-section="settings"><span>⚙</span> Settings</button>
+        </aside>
+        <main class="main">
+            <header class="topbar">
+                <div class="mobile-brand"><img class="brand-logo" src="logo.png" alt="LifeOS logo"> LifeOS</div>
+                <div class="item-meta" aria-label="Demo notice">Frontend demo · fictional data</div>
+                <div class="date-line" id="date-line"></div>
+                <div class="top-actions"><label class="search-box"><span>⌕</span><input id="search-input"
+                            placeholder="Search everything" aria-label="Search everything"></label><button
+                        class="icon-button" id="command-button" title="Command palette">⌘K</button><button
+                        class="icon-button" id="theme-button" title="Change theme">◐</button></div>
+            </header>
+            <section id="view" class="view" aria-live="polite"></section>
+        </main>
+    </div>
+    <div id="toast" class="toast" role="status"></div>
+    <dialog id="modal">
+        <div id="modal-content"></div>
+    </dialog>
+    <dialog id="palette">
+        <div class="palette-inner"><input id="palette-input" placeholder="What do you want to do?" autofocus>
+            <div id="palette-results"></div>
+        </div>
+    </dialog>
+    <script src="static/config.js"></script>
+    <script src="static/api.js"></script>
+    <script src="static/app.js"></script>
+    <script src="static/enhanced.js"></script>
+</body>
+
+</html>

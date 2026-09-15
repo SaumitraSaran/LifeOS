@@ -1,0 +1,10 @@
+{
+  "name": "LifeOS Frontend Demo",
+  "short_name": "LifeOS Demo",
+  "start_url": ".",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f0e8",
+  "theme_color": "#e5ff4f",
+  "description": "A frontend-only LifeOS demonstration with fictional data."
+}
