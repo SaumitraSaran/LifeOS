@@ -1,8 +1,12 @@
-![LifeOS logo](logo.png)
+<img src="logo.png" alt="LifeOS logo" width="96">
 
 # LifeOS — frontend demo
 
 A static, GitHub Pages-ready preview of the LifeOS dashboard. It demonstrates the interface and interactions with fictional sample content; it is not the private/local LifeOS application.
+
+> ## ✨ [Open the live LifeOS demo →](https://lifeos-3q6.pages.dev/)
+>
+> Explore the frontend demo at **[lifeos-3q6.pages.dev](https://lifeos-3q6.pages.dev/)**.
 
 ## Run or publish
 
