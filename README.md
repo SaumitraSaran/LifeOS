@@ -1,4 +1,6 @@
-<img src="logo.png" alt="LifeOS logo" width="500">
+<div style="text-align: center;">
+    <img src="logo.png" alt="LifeOS logo" width="500">
+</div>
 
 # LifeOS — frontend demo
 
