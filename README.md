@@ -1,6 +1,6 @@
-<div style="text-align: center;">
+<p align="center">
     <img src="logo.png" alt="LifeOS logo" width="500">
-</div>
+</p>
 
 # LifeOS — frontend demo
 
